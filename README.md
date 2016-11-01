@@ -107,7 +107,7 @@ public void main(String args[]) throws IOException　{
 
 the *generator.write2out()* method proved the ability to write the image binary to any OutputStream object. this especially convenience for servlet request
 
-如果要将验证码图片以流的方式穿到前端，可以直接使用*generator.write2out()*方法
+如果要将验证码图片以流的方式传到前端，可以直接使用*generator.write2out()*方法
 
 
 ### Use Under Command(require ${JAVA_HOME} set)
